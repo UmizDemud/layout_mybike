@@ -1,0 +1,45 @@
+.details {
+  &-image {
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 16px;
+
+    &--first {
+      background-image: url(../images/photos/bike_img0.svg);
+    }
+    &--second {
+      background-image: url(../images/photos/bike_img2.svg);
+    }
+    &--third {
+      background-image: url(../images/photos/bike_img3.svg);
+    }
+    &--fourth {
+      background-image: url(../images/photos/bike_img1.svg);
+    }
+    &--fifth {
+      background-image: url(../images/photos/bike_img4.svg);
+    }
+    &--sixth {
+      background-image: url(../images/photos/bike_img5.svg);
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 8px;
+
+    color: $mainColor;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+
+  }
+  &__desc {
+    margin: 0 0 40px;
+
+    color: $mainColor;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
