@@ -1,7 +1,10 @@
 .about {
-  &__title,
-  &__desc {
-    grid-column: 1 / 13;
+
+  @include onMobile {
+    &__title,
+    &__desc {
+      grid-column: 1 / 13;
+    }
   }
 
   &__desc {

@@ -1,10 +1,17 @@
 .grid {
   display: grid;
+  grid-auto-flow: dense;
   grid-template-columns: repeat(12, 1fr);
   gap: 24px;
 
   @include onMobile {
     gap: 20px;
+  }
+
+  &--contact {
+    @include onMobile {
+      display: block;
+    }
   }
 
   &__item {

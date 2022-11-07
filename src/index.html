@@ -117,7 +117,7 @@
           </h2>
           <div class="grid">
             <div class="product grid__item--1-4">
-              <img class="product__image" src="./images/photos/bike1.svg" alt="">
+              <div class="product__image product--sporty-4"></div>
               <div class="product__title">
                 Sporty 4
               </div>
@@ -129,7 +129,7 @@
               </div>
             </div>
             <div class="product grid__item--5-8">
-              <img class="product__image" src="./images/photos/bike2.svg" alt="">
+              <div class="product__image product--rit-st"></div>
               <div class="product__title">
                 Ride in town ST
               </div>
@@ -141,7 +141,7 @@
               </div>
             </div>
             <div class="product grid__item--9-12">
-              <img class="product__image" src="./images/photos/bike3.svg" alt="">
+              <div class="product__image product--agileR3"></div>
               <div class="product__title">
                 Agile ride 3
               </div>
@@ -214,23 +214,51 @@
           <h2 id="contacts" class="page__section-title">
             Contact us
           </h2>
+          <div class="grid grid--contact">
+            <div class="grid__item--1-6">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="contact__input"
+                placeholder="Name"
+              >
+              <input
+                type="text"
+                name="email"
+                id="email"
+                class="contact__input"
+                placeholder="Email"
+              >
+              <textarea name="message" id="message" placeholder="Message" class="contact__input contact__input--text-area"></textarea>
+              <button class="button button--contact">Send</button>
+            </div>
+            <div class="grid__item--7-12">
+              <div class="contact__key">
+                Phone
+              </div>
+              <div class="contact__value">
+                +1 234 5555-55-55
+              </div>
+              <div class="contact__key">
+                Email
+              </div>
+              <div class="contact__value">
+                hello@miami.com
+              </div>
+              <div class="contact__key">
+                Address
+              </div>
+              <div class="contact__value">
+                400 first ave.
+                <br>
+                suite 700
+                <br>
+                Minneapolis, MN 55401
+              </div>
 
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="contact__input"
-            placeholder="Name"
-          >
-          <input
-            type="text"
-            name="email"
-            id="email"
-            class="contact__input"
-            placeholder="Email"
-          >
-          <textarea name="message" id="message" placeholder="Message" class="contact__input contact__input--text-area"></textarea>
-          <button class="button button--contact">Send</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>

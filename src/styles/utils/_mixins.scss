@@ -11,11 +11,23 @@
   }
 };
 
+@mixin onTablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
 @mixin onMobile {
   @media (max-width: 500px) {
     @content
   }
 };
+
+@mixin nonMobile {
+  @media (min-width: 500px) {
+    @content
+  }
+}
 
 @mixin top-actions {
   display: flex;

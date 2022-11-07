@@ -1,6 +1,6 @@
 .button {
   padding: 0px 48px;
-  max-width: 390px;
+  max-width: 412px;
   width: 100%;
   height: 56px;
   background: $mainColor;
@@ -27,6 +27,6 @@
 
   &--contact {
     display: block;
-    margin: 0 auto;
+    margin: 0 0 48px;
   }
 }

@@ -1,9 +1,12 @@
 .header {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   background-size: cover;
   background-position: 85% top;
   background-image: url(../images/photos/Cover_photo.jpg);
 
+  @include nonMobile {
+    margin-bottom: 120px;
+  }
   @include onDesktop() {
     background-position: center 40%;
   }
